@@ -1,0 +1,27 @@
+{
+  "seed": 260009,
+  "tree_parameters": {
+    "criterion": "gini",
+    "max_depth": null,
+    "min_samples_leaf": 4
+  },
+  "bagging_trees": 100,
+  "boosting_depth": 4,
+  "boosting_requested_rounds": 100,
+  "boosting_actual_rounds": 100,
+  "q3_repetitions": 30,
+  "q3_depths": [
+    2,
+    8,
+    null
+  ],
+  "mask_rows": [
+    24,
+    40
+  ],
+  "mask_columns": [
+    24,
+    40
+  ],
+  "mask_value": 0
+}
